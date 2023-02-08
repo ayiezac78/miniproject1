@@ -31,6 +31,10 @@
   .custom-popover{
     max-width: 100%;
   }
+  .bs-footer{
+    font-size: 8.5px;
+    font-weight: 600;
+  }
 }
 /* Mobile Viewport */
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
@@ -46,15 +50,15 @@
 /*     background-color: blue; */
     flex-direction:row;
     position:relative;
-    left: 70px;
+    left: 25px;
     margin:auto 10px;
     width: 250px;
-    font-size: 12px;
   }
   #welcome-row{
     flex-direction:column;
   }
   #shopnearby-row{
+    display: flex;
     flex-direction: column-reverse;
     font-size: 12px;
   }
@@ -64,18 +68,17 @@
   .card-tablet{
     margin: 10px auto;
   }
-  .column{
-    float: left;
-    width: 50%;
-    padding: 10px;
-    font-size: 12px;
-  }
-  .bs-row:after{
-    content:"";
-    display: table;
-    clear: both;
-  }
   .fa-question-circle{
     left: 13px;
+  }
+  .welcome-text{
+    width: 400px;
+  }
+  #shop-nearbyImage{
+    margin-bottom: 15px;
+  }
+  .bs-footer{
+    font-size: 12px;
+    font-weight: 600;
   }
 }
